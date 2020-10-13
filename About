@@ -1,0 +1,10 @@
+From this Analysis we make Prediction Model of the given data set to predict whether the students are satisfied from college Facility or not. 
+Today we are going to work on a dataset which consists of information about the newly admitted students survey of engineering college whether they satisfied and from college or not,
+CET score and other aspects such as PCM score etc.When we work on these sort of data ,we need to see which column is important for us and which is not.
+Our main aim today is to make a model which can give us good prediction on whether current students are satisfied or need to improvement, 
+because if they are satisfied then ultimately admission would be improved next time so its need to very important to make a model which can gives good prediction on
+the students survey.We are going to use Logistic Regression for this dataset and see if it gives us a good accuracy or not. What is good accuracy? 
+Well,it depends on what sort of data we are working with,for a credit risk data an accuracy of 80% may not good enough. 
+So we can’t actually define “good accuracy” but anything above 85% is good.Our aim on this dataset is to achieve an accuracy score of 90%.
+First we import our libraries and dataset and then we see the head of the data to know how the data looks like and use describe function to see the percentile’s and other
+key statistics.
